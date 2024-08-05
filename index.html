@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel处理器</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Excel处理器</h1>
+        <form id="uploadForm">
+            <div class="form-group">
+                <label for="file">选择Excel文件:</label>
+                <input type="file" class="form-control" id="file" accept=".xlsx, .xls" required>
+            </div>
+            <button type="submit" class="btn btn-primary">上传并处理</button>
+        </form>
+        <div id="message" class="mt-3"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
